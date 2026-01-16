@@ -12,6 +12,8 @@ body {
 main {
   flex-grow: 1;
   overflow-y: auto;
+  position: relative;
+  color: white;
 }
 
 /* Utils */
@@ -21,24 +23,36 @@ main {
   flex-direction: column;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* main */
 .central_wrapper {
   flex-grow: 1;
   background-color: #1c1d23;
+  border-top-left-radius: ;
   display: flex;
 }
 
+/* Sidebar */
 .sidebar {
   width: 60px;
   background-color: #141318;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+  padding-top: 2rem;
 }
 
+div img:first-child {
+  width: 40px;
+}
+.round {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* Footer */
 .app_footer {
   height: 80px;
   background-color: #2d2c35;

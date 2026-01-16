@@ -27,7 +27,6 @@ main {
 .central_wrapper {
   flex-grow: 1;
   background-color: #1c1d23;
-  border-top-left-radius: ;
   display: flex;
 }
 
@@ -47,14 +46,33 @@ div img:first-child {
   width: 40px;
 }
 .round {
-  height: 40px;
   width: 40px;
   border-radius: 50%;
 }
 
 /* Footer */
 .app_footer {
-  height: 80px;
+  min-height: 100px;
   background-color: #2d2c35;
   flex-shrink: 0;
+  padding: 20px;
 }
+
+.footer_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: baseline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile_img {
+  width: 30px;
+  border-radius: 50%;
+}
+

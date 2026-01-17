@@ -61,6 +61,45 @@ button:nth-child(2) {
   border-radius: 20px;
 }
 
+/* Main */
+
+.flex_list {
+  display: flex;
+  gap: 0.6rem;
+  position: relative;
+  list-style: none;
+  gap: 1rem;
+  position: relative;
+  list-style: none;
+  margin: 30px 25px;
+  color: #82838e;
+}
+
+ul li img {
+  width: 2.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.last_dm {
+  font-size: 0.9rem;
+}
+
+.dm_name {
+  font-weight: 700;
+}
+
+.flex_list li {
+  position: relative;
+}
+
+.dm_time {
+  position: absolute;
+  left: 350px;
+  top: 0;
+  font-size: 0.9rem;
+}
+
 /* Sidebar */
 .sidebar {
   width: 80px;

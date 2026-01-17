@@ -30,6 +30,37 @@ main {
   display: flex;
 }
 
+/* Header */
+h1 {
+  margin: 35px 25px 0;
+  font-size: 1.7rem;
+  color: white;
+}
+
+.btn_header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 25px;
+  gap: 1rem;
+}
+
+.btn_header > button {
+  color: white;
+  border: none;
+  background-color: #373a43;
+}
+
+div > button:first-child {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+button:nth-child(2) {
+  padding: 0 120px;
+  border-radius: 20px;
+}
+
 /* Sidebar */
 .sidebar {
   width: 80px;

@@ -69,8 +69,32 @@ button:nth-child(2) {
   display: flex;
   gap: 0.6rem;
   list-style: none;
-  padding: 20px 20px;
+  padding: 15px 20px;
   color: #82838e;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  left: 55px;
+  top: 55px;
+  transform: translate(-50%, -50%);
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  border: 4px solid #1c1d22;
+}
+
+.red_dot {
+  background-color: rgb(255, 48, 48);
+}
+
+.yellow_dot {
+  background-color: #f4a71b;
+}
+
+.green_dot {
+  background-color: #39a65d;
 }
 
 .grow {
@@ -114,6 +138,18 @@ ul li img {
   align-items: center;
   gap: 1rem;
   padding-top: 2rem;
+  position: relative;
+}
+
+.white_bar {
+  position: absolute;
+  left: 0px;
+  top: 65px;
+  transform: translate(-50%, -50%);
+  height: 45px;
+  width: 10px;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .sidebar img:first-child {
